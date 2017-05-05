@@ -1,0 +1,36 @@
+{
+  "name": "genie-router-telegram-bot",
+  "version": "1.0.0",
+  "description": "A genie router plugin that creates a Telegram bot to send input and receive output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-telegram-bot.git"
+  },
+  "keywords": [
+    "genie-router",
+    "plugin",
+    "client",
+    "telegram",
+    "bot",
+    "chat"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-telegram-bot#readme",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.0"
+  },
+  "genieRouterPlugin": {
+    "name": "telegram-bot"
+  }
+}
