@@ -1,5 +1,6 @@
 const client = require('./lib/client')
 
 module.exports = {
-  client: client
+  client: client,
+  setRouter: client.setRouter.bind(client),
 }

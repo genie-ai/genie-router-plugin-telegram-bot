@@ -18,8 +18,8 @@ in your client configuration, for example:
 ```
 
 The password configuration attribute is optional, and can be used to require a password
-before someone can send commands via Telegram. As there is no persistent storage yet,
-the password will have to be entered every time genie-router starts. As soon as persistent
-storage is implemented the allowed chatIds will be persisted and remembered.
+before someone can send commands via Telegram. A hash of the password is stored in the
+persistent storage, so that the user can be automatically granted access in a next session.
+A user has to type the password anew when the password changes in the configuration.
 
 To not require a password, simply remove the attribute or set it to null.
