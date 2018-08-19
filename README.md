@@ -1,10 +1,14 @@
-This is a plugin for the [https://github.com/matueranet/genie-router](genie-router)
+This is a plugin for the [https://github.com/genie-ai/genie-router](genie-router)
 project. The [Telegram bot API](https://core.telegram.org/bots/api) is used as a client for input.
 
 # Setup
 
-Simply follow the instructions on the Telegram bot API explanation page to acquire a token for your bot. Place that token
-in your client configuration, for example:
+At the plugin location ($HOME/.genie-router), type:
+
+    npm install --save @genie-ai/genie-router-plugin-telegram-bot
+
+
+Then, follow the instructions on the Telegram bot API explanation page to acquire a token for your bot. Place that token in your client configuration, for example:
 
 ```json
 {
